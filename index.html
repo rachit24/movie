@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R Movies</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://www.iconpacks.net/icons/1/free-movie-icon-850-thumb.png">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">FindMyMovie</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="text-center">Search For Movies</h3>
+            <form id="searchForm">
+                <input type="text" class="form-control" id="searchText" placeholder="Search Movie">
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
+    <div class="container mt-4" id="hide">
+        <div class="alert alert-warning">
+            <p class="text">Best Website to search all of your favourite movies. We use a strong technology which gives you what you want. Any movie you search comes with all information you need about it.</p>
+            <p class="text">It provides all basic information about movies you search about. It also gives you an option to visit the IMDB page of the movie to see all the reviews of viewers of that particular movie. </p>
+          </div>
+        <div class="alert alert-danger">
+            <p class="text">Movies of all other languages except English may not be visible as of now. But we have made sure that you will get all the most demanded movies of any language.</p>
+            <p class="text">We are updating our database regularly and adding more than thousand movies each day to make it robust and best in the market.</p>
+        </div>
+        <div class="alert alert-primary">
+            <center><p class="text">Thanks for visiting!</p></center>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
