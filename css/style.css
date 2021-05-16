@@ -1,7 +1,6 @@
 .text{
     font-size: 23px;
 }
-
 @media(min-width:960px){
     #movies .col-md-3 .well{
         height: 390px;
